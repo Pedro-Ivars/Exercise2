@@ -6,7 +6,7 @@ public class Digits {
 
     public static void Digits() {
         //counters of number of digits a is for one digit, b is for 2 digits, c is for 3 digits and d is for more than 3 digits
-        int oneDigit = 0, twoDigits = 0, threeDigts = 0, fourOrMore = 0;
+        int oneDigit = 0, twoDigits = 0, threeDigits = 0, fourOrMore = 0;
         String dataUser;
 
         Scanner scan = new Scanner(System.in);
@@ -23,14 +23,14 @@ public class Digits {
                 else if (input / 100 == 0)
                     twoDigits++;
                 else if (input / 1000 == 0)
-                    threeDigts++;
+                    threeDigits++;
                 else
                     fourOrMore++;
             }
             dataUser = scan.nextLine();
         }
 
-        System.out.println("one: " + oneDigit + " two: " + twoDigits + " three: " + threeDigts + " more: " + fourOrMore);
+        System.out.println("one: " + oneDigit + " two: " + twoDigits + " three: " + threeDigits + " more: " + fourOrMore);
 
 
     }
